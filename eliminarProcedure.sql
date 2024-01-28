@@ -1,0 +1,21 @@
+USE sicefa;
+DROP PROCEDURE IF EXISTS ActualizarProducto;
+DROP PROCEDURE IF EXISTS ActualizarEmpleado;
+DROP PROCEDURE IF EXISTS actualizarSucursal;
+SELECT * FROM v_sucursal; 
+SELECT * FROM v_empleado;  
+SELECT * FROM v_productos;
+SELECT * FROM v_cliente;
+SELECT * FROM  empleado;
+SELECT * FROM   sucursal;
+SELECT * FROM usuario;
+SELECT * FROM producto;
+SELECT * FROM cliente;
+
+INSERT INTO usuario (idUsuario, nombreUsuario, contrasenia, rol) VALUES(1, 'Administrador', 'Administrador', 'ADMC');
+INSERT INTO usuario (idUsuario, nombreUsuario, contrasenia, rol) VALUES(2, 'marco', '1234', 'ADMC');
+INSERT INTO usuario (idUsuario, nombreUsuario, contrasenia, rol) VALUES(3, 'puga', '1234', 'ADMC');
+INSERT INTO usuario (idUsuario, nombreUsuario, contrasenia, rol) VALUES(4, 'esme', '1234', 'ADMC');
+INSERT INTO usuario (idUsuario, nombreUsuario, contrasenia, rol) VALUES(5, 'rosario', '1234', 'ADMC');
+INSERT INTO usuario (idUsuario, nombreUsuario, contrasenia, rol) VALUES(6, 'kim', '1234', 'ADMC');
+INSERT INTO usuario (idUsuario, nombreUsuario, contrasenia, rol) VALUES(7, 'usuario', '1234', 'EMP');
